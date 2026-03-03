@@ -1,4 +1,8 @@
-.body{
-    /* background-color: rgb(164, 165, 91); */
-    background-image: url('./Images/Terms and conditions background.webp');
+body{
+    background-image: url('../Images/Terms and conditions background image.webp');
 }
+
+button{
+    border-radius: 15px;
+}
+

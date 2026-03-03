@@ -1,6 +1,6 @@
 .logo{
-    width: 50px;
-    height: 50px;
+    width: 300px;
+    height: 250px;
     display: flex;
     border-radius: 15px;
     float: right;
@@ -9,22 +9,23 @@
 
 .logo-hover{
     filter:brightness(1.3)
-    transition: translate Y(-20)
+    /* transform: translatey(-20); */
 }
 
-.Hero{
-    float: left;
-    width: 50px;
-    height: 50px;
+.hero{
+    margin-left: auto;
+    width: 300px;
+    height: 300px;
     display: flex;
     border-radius: 15px;
     transition: ease-in-out;
 }
 
-.Hero-hover{
+.hero-hover{
      filter:brightness(1.3)
-     transition translate Y(-20)
+     /* transform: translatey(-20); */
 }
+
 
 header{
     display: flex;
@@ -34,9 +35,9 @@ header{
 }
 
 body{
-     background-image: url('./Images/a fully furnished surgical room- for service page.webp');
-     /* background-color: rgba(69, 150, 143, 0.925); */
+     background-image: url('../Images/a fully furnished surgical room- for service page.webp');
 }
+
 
 .nav-links{
     padding: 25px;
@@ -72,5 +73,18 @@ body{
 
 .intro{
     font-size: large;
+    font-display: block;
+}
+
+.sign-in button{
+   padding: 15px;
+   margin: 15px;
+   border-radius: 25px;
+}
+
+.sign-up button{
+   padding: 15px;
+   margin: 15px;
+   border-radius: 25px;
 }
 
