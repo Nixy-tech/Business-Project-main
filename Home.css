@@ -1,0 +1,76 @@
+.logo{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 15px;
+    float: right;
+    transition: ease-in-out;
+}
+
+.logo-hover{
+    filter:brightness(1.3)
+    transition: translate Y(-20)
+}
+
+.Hero{
+    float: left;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 15px;
+    transition: ease-in-out;
+}
+
+.Hero-hover{
+     filter:brightness(1.3)
+     transition translate Y(-20)
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+     /* background-image: url('./Images/a fully furnished surgical room- for service page.webp'); */
+     background-color: rgba(69, 150, 143, 0.925);
+}
+
+.nav-links{
+    padding: 25px;
+    text-decoration: none;
+    /* border:solid; */
+    border-radius: 15px;
+    /* background-color: silver; */
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    gap: 30px;
+    margin: 50px;
+}
+
+.nav li{
+    list-style-type: none;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.accolades{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.intro{
+    font-size: large;
+}
+
