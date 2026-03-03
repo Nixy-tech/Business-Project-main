@@ -34,8 +34,8 @@ header{
 }
 
 body{
-     /* background-image: url('./Images/a fully furnished surgical room- for service page.webp'); */
-     background-color: rgba(69, 150, 143, 0.925);
+     background-image: url('./Images/a fully furnished surgical room- for service page.webp');
+     /* background-color: rgba(69, 150, 143, 0.925); */
 }
 
 .nav-links{
@@ -43,7 +43,7 @@ body{
     text-decoration: none;
     /* border:solid; */
     border-radius: 15px;
-    /* background-color: silver; */
+    background-color: silver;
 }
 
 .nav{
